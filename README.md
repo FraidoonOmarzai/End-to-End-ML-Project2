@@ -4,8 +4,8 @@
 
 * create the env and activate
 ```bash
-conda create -p python==3.8 -y
-conda activate ml2
+conda create -p ml2 python==3.8 -y
+conda activate ml2/
 ```
 
 create req.txt file and setup.py
@@ -34,3 +34,11 @@ touch setup.py
 ```bash
 pip install -r requirements.txt
 ```
+
+**Note: when we use -e . inside req.txt, it automatically trigger setup.py**
+
+**Note: The python sys module contains methods and variables for modifying many elements of the Python Runtime Environment. It allows us to access parameters and functionalities specific to the system**
+
+**Note: In Python, the logging module provides a flexible and configurable way to capture and output log messages from your application. The main purpose of using a logger is to record information that can help you debug issues, monitor the execution flow, and gather data for analysis.**
+
+* add code to logger.py and exception.py, finally test it.
