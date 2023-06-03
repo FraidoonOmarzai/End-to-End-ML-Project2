@@ -42,3 +42,10 @@ pip install -r requirements.txt
 **Note: In Python, the logging module provides a flexible and configurable way to capture and output log messages from your application. The main purpose of using a logger is to record information that can help you debug issues, monitor the execution flow, and gather data for analysis.**
 
 * add code to logger.py and exception.py, finally test it.
+
+* Getting the dataset, EDA, Feature Engineering, Model Training
+* install teh jupyter notebook in VS Code
+```bash
+pip install jupyter
+jupyter-lab
+```
