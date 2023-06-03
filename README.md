@@ -49,3 +49,5 @@ pip install -r requirements.txt
 pip install jupyter
 jupyter-lab
 ```
+
+* Data ingestion part is completed
