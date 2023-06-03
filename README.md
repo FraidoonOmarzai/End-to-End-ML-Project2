@@ -60,3 +60,7 @@ python3 -m pip install [package_name]
 **Note:** The **utils.py** makes it easy to execute common tasks in Python scripts
 
 * Data transformation is done successfully
+
+* Model train is done!
+
+* hyperparameter tunning is done!
