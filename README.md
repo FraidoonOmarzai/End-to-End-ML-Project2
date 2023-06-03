@@ -50,6 +50,11 @@ pip install jupyter
 jupyter-lab
 ```
 
+* to install some packages:
+```bash
+python3 -m pip install [package_name]
+```
+
 * Data ingestion part is completed
 
 **Note:** The **utils.py** makes it easy to execute common tasks in Python scripts
