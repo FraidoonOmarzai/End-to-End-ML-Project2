@@ -1,4 +1,5 @@
-# End To End ML Project 2
+<h1 align='center'> Students_Performance_In_Exams <h1>
+  **Note: Implementing end to end machine learning project**
 
 ## Steps
 
