@@ -64,3 +64,5 @@ python3 -m pip install [package_name]
 * Model train is done!
 
 * hyperparameter tunning is done!
+
+* creating flask app and prediction pipeline
