@@ -1,5 +1,20 @@
 <h1 align='center'> Students_Performance_In_Exams <h1>
-  **Note: Implementing end to end machine learning project**
+
+**Implementing end to end machine learning project :)**
+
+
+*************************************************************************************************************
+## Complete Life Cycle Of ML Projects:
+    * Understanding The Problem Statement
+    * Data Collection
+    * Exploratory Data Analysis (EDA)
+    * Feature Engineering
+    * Feature Selection
+    * Model Creation
+    * Model Hyperparameter Tunning
+    * Deploy The Model
+    * Retraining Approach
+*************************************************************************************************************
 
 ## Steps
 
@@ -67,3 +82,5 @@ python3 -m pip install [package_name]
 * hyperparameter tunning is done!
 
 * creating flask app and prediction pipeline
+
+*************************************************************************************************************
