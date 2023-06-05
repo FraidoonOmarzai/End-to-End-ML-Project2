@@ -83,4 +83,12 @@ python3 -m pip install [package_name]
 
 * creating flask app and prediction pipeline
 
+* creating a folder and file below to deploy my project to AWS elastic 
+```bash
+mkdir .ebextensions
+touch .ebextensions/python.config
+```
+
+
+
 *************************************************************************************************************
