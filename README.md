@@ -81,14 +81,61 @@ python3 -m pip install [package_name]
 
 * hyperparameter tunning is done!
 
-* creating flask app and prediction pipeline
+### creating flask app and prediction pipeline
 
-* creating a folder and file below to deploy my project to AWS elastic 
+
+### Docker Setup in EC2
+
+* Create a docker file
 ```bash
-mkdir .ebextensions
-touch .ebextensions/python.config
+touch Dockerfile
+```
+* Build a docker image
+```bash
+docker build -t student-app .
+docker ps
+```
+* Running the app
+```bash
+docker run -p 8000:8000 student-app
 ```
 
+### AWS
+* create IAM User
+* Go for ECR and create a repository (060145207853.dkr.ecr.ap-south-1.amazonaws.com/student-performance)
+* Go to EC2 and launch an instance
 
+#### Docker Setup In EC2 commands to be Executed
+
+**optinal**
+```bash
+sudo apt-get update 
+sudo apt-get upgrade -y
+```
+
+**required**
+
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
+```
+
+#### Configure EC2 as self-hosted runner:
+
+* Setup github secrets:
+AWS_ACCESS_KEY_ID=
+
+AWS_SECRET_ACCESS_KEY=
+
+AWS_REGION = us-east-1
+
+AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
+
+ECR_REPOSITORY_NAME = simple-app
 
 *************************************************************************************************************
